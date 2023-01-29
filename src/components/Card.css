@@ -1,0 +1,37 @@
+.card-container {
+    width: 30%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap : 1.5rem;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.card-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    gap : 1rem;
+
+}
+.apply-btn{
+    height: 3rem;
+    width: 50%;
+    border : none;
+    background-color: rgb(71, 71, 185);
+    color: #ffffff;
+    border-radius: 4px;
+    font-family: 'Questrial';
+    letter-spacing: 0.8px;
+}
+.messages-btn{
+    height: 3rem;
+    width: 50%;
+    background-color: #ece4e4;
+    color: rgb(97, 92, 92);
+    border:1px solid rgb(182, 188, 193);
+    border-radius: 4px;
+    font-family: 'Questrial';
+    letter-spacing: 0.8px;
+}
