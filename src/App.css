@@ -1,14 +1,14 @@
 .app {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     gap : 2rem;
-    background: rgb(247, 247, 247);
     font-family: 'Questrial';
     letter-spacing: 0.5px;
 }
 .card__container{
-    display: flex;
-    justify-content: space-around;
+    padding: 3rem;
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 5rem;
+    grid-template-columns: auto auto;
 }

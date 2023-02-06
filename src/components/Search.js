@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Search.css";
 import { Chips } from "./Chips";
 
-export const Search = () => {
-  const [searchText, setSearchText] = useState("");
+export const Search = ({searchText, setSearchText}) => {
+ 
   const [chips, setChips] = useState([]);
 
   const deleteHandler = (index) => {
@@ -24,7 +24,7 @@ export const Search = () => {
         <button className="search-button" onClick={() => {
           if(searchText.trim().length !== 0)
           {setChips([...chips, searchText])
-          setSearchText("")}
+          }
         }}>Find Job</button>
       </div>
       <div className="chips-container">

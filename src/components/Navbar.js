@@ -16,7 +16,7 @@ export const Navbar = () => {
       <div className= {styles["navbar-items"]}>
         {navbarUtils?.map((item, index) => {
           return (
-            <div key = {index}>
+            <div key = {index} >
               <h4>{item.name}</h4>
             </div>
           );
